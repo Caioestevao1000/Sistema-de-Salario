@@ -38,12 +38,14 @@ Cálculo para saber se as metas da semana foram maior ou igual á 20.000, caso s
 ![5%](img/5.jpg)  
 Aqui é pego cada semana e cálculado se houve excedente ou não. Meta semanal=20.000, se igual, não houve excedente, se maior é subtraido por 20.000 e pego 5% do excedente.
 
+
 #### 10%
 ![10%](img/10.jpg)  
 Cálculo para o excedente mensal, se algumas das metas semanais não forem alcançadas não será feito o cálculo do bônus mensal, caso alcançado será subtraido por 80.000 e pego 10% do valor excedente.
 
-### Resultado  
-![Resultado Final](img/resultado.jpg)  
+
+### Resultado
+![Resultado Final](img/resultado.jpg) 
 Após a realização de todos os cáculos, será apresentado para o funcionario o salário que ele receberá.
 
 
