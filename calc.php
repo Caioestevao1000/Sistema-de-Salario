@@ -30,12 +30,13 @@
         //Salário mínimo de acordo com o Piso Regional-PR
         $salarioFinal = 1927.02;
 
-        //Cálculo para saber se as metas da semana foram maior ou igual á 20.000, caso seja, é adicionado 200 no Salário
+        //Cálculo para saber se as metas da semana foram maior ou igual á 20.000, caso seja, é adicionado 200 no Salário Final.
         foreach($semanas as $s){
             if($s >= $metaS){
                 $salarioFinal += 200;
             }
         }
+        echo $salarioFinal;
 
         //Cálculo do excedente semanal 
         //Pego cada semana e cálculado se houve excedente ou não. Meta semanal=20.000 se igual, não houve excedente, se maior é subtraido por 20.000 e é pego 5% do excedente.
@@ -45,13 +46,15 @@
             }
         }
 
-        //Cálculo para o excedente mensal, se algumas das metas semanais não forem alcançadas não será feito o cálculo do bônus mensal, caso for alcançado segue a mesma lógica.
+        echo "<br>$salarioFinal";
+
+        //Cálculo para o excedente mensal, se algumas das metas semanais não forem alcançadas não será feito o cálculo do bônus mensal, caso for alcançado segue a mesma lógica do semanal.
         if($smn1 >= $metaS && $smn2 >= $metaS && $smn3 >= $metaS && $smn4 >= $metaS){
             $salarioFinal += ($mensal - $metaM) /100 * 10 ;
         }
 
         //Mensagem final para o usuário, após todos os cálculos é mostrado ao usuário o valor final do salário
-        echo "<h2>$nome seu resultado salarial é</h2>";
+        echo "<h2>$nome seu salárial total é de:</h2>";
         echo "<strong><p>R$ $salarioFinal</p></strong>";
 
         //$SalarioFinal = 192702 + $metasemanal + $ExSemanal + $ExMensal;
