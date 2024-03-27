@@ -45,7 +45,7 @@ Cálculo para o excedente mensal, se algumas das metas semanais não forem alcan
 
 
 ### Resultado
-![Resultado Final](img/resultado.jpg) 
+![Resultado Final](img/resultado.jpg)  
 Após a realização de todos os cáculos, será apresentado para o funcionario o salário que ele receberá.
 
 
