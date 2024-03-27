@@ -1,13 +1,13 @@
 # Índice 
 
-* [Sistema de Cálculo Salárial](#sistema-de-cálculo-salárial)
+* [Sistema de Cálculo Salarial](#sistema-de-cálculo-salarial)
 * [Introdução](#introdu%C3%A7%C3%A3o)  
 * [Funcionalidades](#funcioanlidades)  
 * [Tecnologia Utilizadas](#tecnologia-utilizadas)  
 * [Fontes Consultadas](#fontes-consultadas)  
 * [Autor](#autor)  
 
-# Sistema de Cálculo Salárial
+# Sistema de Cálculo Salarial
 
 Projeto criado com base em atividade da atividade de Programação Web II. Escola Social Marista Ir. Acácio - Ensino Médio Técnico.
 ![Capa do Projeto](img/capa.jpg)
