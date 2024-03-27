@@ -18,7 +18,9 @@
         $smn2 = $_GET["smn2"];
         $smn3 = $_GET["smn3"];
         $smn4 = $_GET["smn4"];
-        $mensal = $_GET["mensal"];
+        $mensal = $smn1 + $smn2 + $smn3 + $smn4;
+
+        //$mensal = $_GET["mensal"];
 
         //array para cálculo com FOREACH
         $semanas = array($smn1, $smn2, $smn3, $smn4);
@@ -36,29 +38,23 @@
                 $salarioFinal += 200;
             }
         }
-        echo $salarioFinal;
 
-        //Cálculo do excedente semanal 
-        //Pego cada semana e cálculado se houve excedente ou não. Meta semanal=20.000 se igual, não houve excedente, se maior é subtraido por 20.000 e é pego 5% do excedente.
+        //Cálculo do excedente semanal 5%
         foreach($semanas as $s){
             if($s > $metaS){
                 $salarioFinal += ($s - $metaS) /100 * 5;
             }
         }
 
-        echo "<br>$salarioFinal";
-
-        //Cálculo para o excedente mensal, se algumas das metas semanais não forem alcançadas não será feito o cálculo do bônus mensal, caso for alcançado segue a mesma lógica do semanal.
-        if($smn1 >= $metaS && $smn2 >= $metaS && $smn3 >= $metaS && $smn4 >= $metaS){
+        //Cálculo para o excedente mensal
+        if($smn1 > $metaS && $smn2 > $metaS && $smn3 > $metaS && $smn4 > $metaS){
             $salarioFinal += ($mensal - $metaM) /100 * 10 ;
         }
 
         //Mensagem final para o usuário, após todos os cálculos é mostrado ao usuário o valor final do salário
         echo "<h2>$nome seu salárial total é de:</h2>";
-        echo "<strong><p>R$ $salarioFinal</p></strong>";
+        echo "<strong><p>R$".number_format($salarioFinal, 2, ',', '.') . "</p></strong>";
 
-        //$SalarioFinal = 192702 + $metasemanal + $ExSemanal + $ExMensal;
-        //Salário final = Salário mínimo + valor sobre meta semanal + valor sobre o excedente de meta semanal + valor de excedente de meta mensal.
         ?>
 
         <form id="final" action="index.html">
