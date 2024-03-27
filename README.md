@@ -2,7 +2,7 @@
 
 * [Sistema de Cálculo Salarial](#sistema-de-cálculo-salarial)
 * [Introdução](#introdu%C3%A7%C3%A3o)  
-* [Funcionalidades](#funcioanlidades)  
+* [Funcionalidades](#funcionalidades)  
 * [Tecnologia Utilizadas](#tecnologia-utilizadas)  
 * [Fontes Consultadas](#fontes-consultadas)  
 * [Autor](#autor)  
