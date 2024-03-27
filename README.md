@@ -43,7 +43,7 @@ Aqui é pego cada semana e cálculado se houve excedente ou não. Meta semanal=2
 Cálculo para o excedente mensal, se algumas das metas semanais não forem alcançadas não será feito o cálculo do bônus mensal, caso alcançado será subtraido por80.000 e pego 10% do valor excedente.
 
 
-### Resultado
+### Resultado  
 ![Resultado Final](img/resultado.jpg) 
 Após a realização de todos os cáculos, será apresentado para o funcionario o salário que ele receberá.
 
