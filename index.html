@@ -8,29 +8,30 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 <body>
+    <main>
+        <h1>Cálculo de Salário</h1>
+        <p>Insira os valores batidos Semanal e Mensal</p>
+        <form action="calc.php" method="get">
 
-    <h1>Cálculo de Salário</h1>
-    <p>Insira os valores batidos Semanal e Mensal</p>
-    <form action="calc.php" method="get">
+            <input type="text" name="nome" id="idnome" placeholder="Nome">
+            <br>
 
-        <input type="text" name="nome" id="idnome" placeholder="Nome">
-        <br>
+            <input type="number" name="smn1" id="idsmn1"  placeholder="Meta 1° Semana" step="0,01">
+            <br>
+            <input type="number" name="smn2" id="idsmn2"  placeholder="Meta 2° Semana" step="0,01">
+            <br>
+            <input type="number" name="smn3" id="idsmn3"  placeholder="Meta 3° Semana" step="0,01">
+            <br>
+            <input type="number" name="smn4" id="idsmn4"  placeholder="Meta 4° Semana" step="0,01">
+            <br>
 
-        <input type="number" name="semanal1" id="idsemanal1"  placeholder="Meta 1° Semanal" step="0,01">
-        <br>
-        <input type="number" name="semanal2" id="idsemanal2"  placeholder="Meta 2° Semanal" step="0,01">
-        <br>
-        <input type="number" name="semanal3" id="idsemanal3"  placeholder="Meta 3° Semanal" step="0,01">
-        <br>
-        <input type="number" name="semanal3" id="idsemanal3"  placeholder="Meta 4° Semanal" step="0,01">
-        <br>
+            <input type="number" name="mensal" id="idmensal" placeholder="Meta Mensal" step="0,01">
 
-        <input type="number" name="mensal" id="idmensal" placeholder="Meta Mensal" step="0,01">
+            <br>
+            <input type="submit" value="Calcular Salário">
 
-        <br>
-        <input type="button" value="Calcular Salário">
-
-    </form>
+        </form>
+    </main>
 
 </body>
 </html>
