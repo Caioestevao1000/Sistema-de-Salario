@@ -9,7 +9,7 @@
 
 # Sistema de Cálculo Salarial
 
-Projeto criado com base em atividade da atividade de Programação Web II. Escola Social Marista Ir. Acácio - Ensino Médio Técnico.
+Projeto criado com base em atividade da atividade de Programação Web II. Escola Social Marista Ir. Acácio - Ensino Médio Técnico.  
 ![Capa do Projeto](img/capa.jpg)
 
 
