@@ -24,19 +24,28 @@ Todo(a) vendedor(a) que ultrapassar as metas semanais, receberão um 5% sobre o 
 Todo(a) vendedor(a) que exceder o volume da meta mensal, receberá uma bonificação, de 10% sobre o valor excedente da meta mensal. Isso NÃO valerá em caso do não cumprimento de ao menos uma das metas semanais.
 
 
-## Funcioanlidades
-O código constitui de alguns cálculos, no qual foi feito a confirmação dos parâmetros definidos pela empresa.
+## Funcionalidades
+O código constitui de alguns cálculos, no qual, foi de acordo com os parâmetros definidos pela empresa.
 
-### 1%
+## Cálculos
+
+#### 1%
+![1%](img/1%.jpg)  
+Cálculo para saber se as metas da semana foram maior ou igual á 20.000, caso seja, é adicionado 200 no Salário Final.
+
+#### 5%
+![5%](img/5%.jpg)  
+Aqui é pego cada semana e cálculado se houve excedente ou não. Meta semanal=20.000, se igual, não houve excedente, se maior é subtraido por 20.000 e é pego 5% do excedente.
 
 
-### 5%
+#### 10%
+![10%](img/10%.jpg)  
+Cálculo para o excedente mensal, se algumas das metas semanais não forem alcançadas não será feito o cálculo do bônus mensal, caso for alcançado segue a mesma lógica.
 
 
-### 10%
+### Resultado
+![Resultado Final](img/resultado.jpg)  
 
-
-### resultado
 
 
 
